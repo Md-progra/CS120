@@ -1,7 +1,9 @@
-def add_excitement(list):
-    list = ["wow","yay", "dope"]
-    list = "! ".join(list)
-    print(list)
-    return list
+def add_excitement(excitement):
+    n=len(excitement)
+    for word in range(n):
+        excitement[word]+= "!"
+    print(excitement)
+    return excitement
+add_excitement(['wow','aye','hii'])
+
     
-add_excitement(list)
