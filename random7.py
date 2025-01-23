@@ -5,4 +5,4 @@ def gen_erate(n):
     generated_number = random.randint(a,b)
     print(generated_number)
 
-gen_erate()
+gen_erate(3)
