@@ -1,13 +1,13 @@
 def change_case(s):
-    char = ""
+    swapped = ""
     for i in range(len(s)):
        if s[i].islower():
-           char += s[i].upper()
+           swapped += s[i].upper()
        elif s[i].isupper():
-            char += s[i].lower()
+            swapped += s[i].lower()
        else:
-            char += s[i]
-    return char
+            swapped += s[i]
+    return swapped
 
   # return s.swapcase()
-print(change_case("disstressssS"))
+print(change_case("KoFi"))
