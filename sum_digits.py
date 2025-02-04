@@ -1,4 +1,5 @@
 def sum_digits(num):
+    #This function takes a number and returns the sum of its digit
     num = str(num)
     sum = 0
     for number in num:
