@@ -3,4 +3,4 @@ def rectangle(m,n):
     for i in range(m):
         print("*" * n)
 
-print(rectangle(3,6))
+print(rectangle(6,3))
